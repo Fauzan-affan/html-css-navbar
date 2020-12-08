@@ -1,0 +1,144 @@
+:root {
+  --main-color: #f68960;
+  --secondary-color: #acacac;
+
+  --box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+body {
+  background: white;
+
+  color: var(--secondary-color);
+
+  margin: 0;
+  padding: 0;
+}
+
+/* .container {
+
+} */
+
+.line-top {
+  background-color: var(--main-color);
+  padding-top: 0.05em;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+
+  padding: 0 15em;
+
+  box-shadow: var(--box-shadow);
+}
+
+.all-channel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.7em 0 ;
+
+  cursor: pointer;
+
+  /* background-color: blanchedalmond; */
+}
+
+.all-channel:hover {
+  color: var(--main-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.newest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.7em 0 ;
+
+  cursor: pointer;
+
+  /* background-color: blueviolet; */
+}
+
+.newest:hover {
+  color: var(--main-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.popular {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.7em 0 ;
+
+  cursor: pointer;
+
+  /* background-color: brown; */
+}
+
+.popular:hover {
+  color: var(--main-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.editors-pick {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.7em 0 ;
+
+  cursor: pointer;
+
+  /* background-color: cadetblue; */
+}
+
+.editors-pick:hover {
+  color: var(--main-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.trending {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.7em 0 ;
+
+  cursor: pointer;
+
+  /* background-color: coral; */
+}
+
+.trending:hover {
+  color: var(--main-color);
+  border: 1px solid var(--secondary-color);
+}
+
+.lihat-semua {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0.7em 0 ;
+
+  cursor: pointer;
+
+  /* background-color: cyan; */
+}
+
+.menu {
+  padding: 0 0.5em;
+}
+
+.selected {
+  color: var(--main-color);
+}
+
+.arrow {
+  transform: rotate(90deg);
+}
+
+/*# sourceMappingURL=main.css.map */
